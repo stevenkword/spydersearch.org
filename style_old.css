@@ -1,0 +1,104 @@
+	#slideshow{
+		border:0px solid red;
+		position: absolute;
+	}
+
+	.pics {  
+		height:  472px;  
+		width:   950px;  
+		padding: 0;  
+		margin:  0;
+		display: none;
+	} 
+ 
+	.pics img {  
+		padding: 0px;  
+		border:  0px solid #eee;  
+		background-color: #eee;  
+		width:  950px; 
+		height: 472px; 
+		top:  0; 
+		left: 0 
+	} 
+
+	body {
+		margin: 0;
+		background:#eee;
+	}
+	#userbar {
+		background:#333; 
+		padding: 5px;
+	}
+	#userbar ul{
+		display:inline;
+		list-style: none;
+	}
+	#userbar li{
+		display:inline;
+		margin-right: 5px;
+	}
+	#userbar li a{
+		color: #eee;
+		font-family: 'Century Gothic';
+		font-size: 18px;
+		text-decoration: none;
+	}
+	#userbar li a:hover{
+		text-decoration: underline;
+	}
+	#wrapper{
+		border: 3px solid #000;
+		-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;
+		position: absolute;
+		top: 50%;
+		margin-top: -250px;
+		margin-left: -475px;
+		left: 50%;
+		text-align:center;
+	}
+	#box{
+		width: 950px;
+		height: 472px;
+		/*border:1px solid #fff;*/
+		background: black;
+		margin: 0 auto;
+		/*margin-top:150px;*/
+		/*background:url('http://www.spydersearch.org/default_bg.jpg');*/
+	}
+	#mainbar{
+		border: 0px solid red;
+		padding-top:100px;
+
+		z-index: 50; position: absolute;
+	}
+	#nav{z-index: 50; position: absolute; bottom:34px;right:10px;}
+	#nav a{color:white;font-size:18px;font-family:'century gothic';font-weight:bold;float:left;}
+	#logo{
+		float:left;
+		margin-left:15px;
+	}
+	#searchbar{
+		width: 500px;
+		/*margin-left:150px;*/
+		float:left;
+		border:0px solid lime;
+	}
+	#adspace{
+		background: #000;
+		color: #eee;
+		width: 950px;
+		height: 15px;
+		padding:5px 0;
+		margin: 0 auto;
+	}
+
+	/* overrides */
+	.cse input.gsc-search-button, input.gsc-search-button {
+		font-size: 24px !important;
+		font-family: 'Century Gothic' !important;
+	}
+	.cse input.gsc-input, input.gsc-input {
+		font-size: 22px !important;
+		font-family: 'Century Gothic' !important;
+		padding: 4px !important;
+	}
